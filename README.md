@@ -77,7 +77,7 @@ To make it easier to interact with Playwright in VSCode:
 ## **4. Install Playwright Runner in VSCode**
 Similarly, install the Playwright Runner extension for better test execution management in VSCode.
 ## **5. Setup Environment Variables**
-Install the DotEnv extension in VSCode, and create a .env file in the root directory of your project. In the .env file, define the necessary environment variables.
+Install the DotEnv extension in VSCode
 
 # **Running Tests**
 - To run all tests:
@@ -90,3 +90,4 @@ Install the DotEnv extension in VSCode, and create a .env file in the root direc
 - Ensure that all sensitive information (such as credentials or tokens) is securely stored in the .env file and not exposed in the code.
 - This framework uses Playwright to interact with the Sauce Labs application, providing fast and reliable browser automation for testing.
 - Playwright is highly efficient in automating and testing modern web applications across various browsers.
+- Everytime a page object is created the pom-setup.ts file must be updated.
