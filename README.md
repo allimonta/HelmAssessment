@@ -64,6 +64,10 @@ This folder contains essential utility functions, constants, and configuration f
 **Dependency Injection in Tests:** By injecting page object instances (e.g., Login, Inventory, etc.) into the tests via fixtures, the tests can interact with the UI without directly accessing page elements.
 
 # **Setup**
+## **0. Install Visual Studio Code (VSCode)**  
+If you don't have VSCode installed, follow these steps:
+- Visit the VSCode download page https://code.visualstudio.com/Download.
+- Download and install the version appropriate for your operating system.
 ## **1. Install Dependencies**  
 Ensure you have Node.js installed. Then, install the required dependencies by running:
 ```npm install```
