@@ -66,10 +66,10 @@ This folder contains essential utility functions, constants, and configuration f
 # **Setup**
 ## **1. Install Dependencies**  
 Ensure you have Node.js installed. Then, install the required dependencies by running:
-```bash npm install```
+```npm install```
 ## **2. Install Playwright Automation Framework**  
 To initialize Playwright, run:
-```bash npm init playwright@latest```
+```npm init playwright@latest```
 ## **3. Install Playwright UI in VSCode**  
 To make it easier to interact with Playwright in VSCode:
 - Go to the Extensions tab in VSCode.
@@ -80,10 +80,11 @@ Similarly, install the Playwright Runner extension for better test execution man
 Install the DotEnv extension in VSCode, and create a .env file in the root directory of your project. In the .env file, define the necessary environment variables.
 
 # **Running Tests**
-To run all tests:
-```bash npx playwright test```
-To run a specific test:
-```bash npx playwright test -g "User is able to add products to remove products from the cart"``` 
+- To run all tests:
+```npx playwright test```
+
+- To run a specific test:
+```npx playwright test -g "User is able to add products to remove products from the cart"``` 
 
 # **Notes**
 - Ensure that all sensitive information (such as credentials or tokens) is securely stored in the .env file and not exposed in the code.
